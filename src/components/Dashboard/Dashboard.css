@@ -1,0 +1,16 @@
+.charts{
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.chartelement{
+    display: flex; 
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+    .charts {
+      flex-direction: column; 
+      justify-content: center; 
+     align-items: center; 
+    }
+  }

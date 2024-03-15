@@ -1,0 +1,93 @@
+/* 
+.addproductbutton{
+text-align: left;
+} */
+
+#button {
+  display: inline-block;
+  color: rgb(48, 47, 47);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  /* color: #3498db; */
+  background-color: rgb(147, 147, 237);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+}
+
+#button:hover {
+  background-color: #3498db;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.ProductsCard{
+    /* height: fit-content; */
+    /* width: 80; */
+    /* max-width: 10; */
+    background-color: aliceblue;
+    /* width: 95%; */
+    border-radius: 8px;
+    margin: 20px;
+    /* width: 120%; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /* width: 140% */
+   
+    /* margin-left: 20%;
+    height: 100; */
+
+}
+
+.Productsdetails{
+    display: flex;
+  /* width: 140%; */
+  justify-content: space-between;
+  list-style-type: none;
+  /* padding: 0; */
+  margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+   
+}
+
+
+
+table {
+    border: 2px solid rgb(18, 20, 18);
+  
+    /* width: 1200px; */
+    /* height: 200px; */
+    /* width: 100px;
+     */
+     
+    
+  
+}
+ 
+th {
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+tr:hover{
+    background-color: rgb(210, 232, 249);
+    cursor: pointer;
+    
+}
+tr{
+  height: 50px; 
+   width: 300px;
+}
+ 
+td {
+    text-align: center;}
+    @media screen and (max-width: 1200px) {
+      
+    }

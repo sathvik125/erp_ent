@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Product.css"
 import { getDetails } from '../../FirebaseFuncs';
-import { insertProduct,editProduct,deleteProduct } from '../../FirebaseFuncs';
+import { editProduct,deleteProduct } from '../../FirebaseFuncs';
 import Popup from 'reactjs-popup';
 
 import 'reactjs-popup/dist/index.css';
